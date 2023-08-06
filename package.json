@@ -1,0 +1,22 @@
+{
+  "name": "weather-dashboard-electron",
+  "version": "1.0.0",
+  "description": "A desktop application providing real-time weather updates, extended forecasts, and showcasing NASA's daily featured image.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Mathieu Heron-Vortes",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "electron": "^25.4.0",
+    "electron-packager": "^17.1.1"
+  }
+}
